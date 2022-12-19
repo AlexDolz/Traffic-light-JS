@@ -165,7 +165,8 @@ a:active {
 }
 @media (orientation: landscape) and (hover: none) and (pointer: coarse) {
   .container {
-    height: 100%;
+    min-height: 330px;
+    padding-top: 15px;
   }
   .circle {
     width: 60px;
