@@ -163,6 +163,16 @@ a:active {
   top: 0;
   left: 100px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .message-red,
+  .message-green,
+  .message-yellow {
+    width: 120px;
+    top: 0;
+    left: 0;
+  }
+}
 @media (orientation: landscape) and (hover: none) and (pointer: coarse) {
   .container {
     min-height: 330px;
