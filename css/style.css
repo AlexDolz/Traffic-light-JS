@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+html,
+body {
+  width: 100%;
+  overflow: hidden;
+}
 input,
 textarea,
 button,
@@ -110,7 +115,7 @@ a:active {
 }
 
 .btn-active:active {
-  font-size: 19px;
+  font-size: 17px;
 }
 .btn-active:hover {
   background: rgb(254, 239, 222);
@@ -168,22 +173,22 @@ a:active {
   .message-red,
   .message-green,
   .message-yellow {
-    width: 120px;
-    top: 0;
+    width: 95px;
     left: 0;
+    font-size: 30px;
   }
 }
 @media (orientation: landscape) and (hover: none) and (pointer: coarse) {
   .container {
-    min-height: 330px;
-    padding-top: 15px;
+    min-height: 360px;
+    padding-top: 6px;
   }
   .circle {
     width: 60px;
     height: 60px;
   }
   .box {
-    height: 214px;
+    height: 202px;
   }
   .btn {
     height: 22px;
@@ -196,7 +201,7 @@ a:active {
   .message-green,
   .message-yellow {
     width: 200px;
-    top: 0;
     left: 0;
+    font-size: 35px;
   }
 }
