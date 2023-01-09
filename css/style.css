@@ -28,7 +28,7 @@ a:active {
   display: flex;
   width: 100vw;
   height: 100vh;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   background-image: linear-gradient(
     to bottom,
@@ -135,17 +135,6 @@ a:active {
   border-radius: 5px 5px 0 0;
 }
 
-/* .timer {
-  font-size: 24px;
-  display: none;
-} */
-
-/* .red .timer,
-.yellow .timer,
-.green .timer {
-  display: block;
-} */
-
 .message-red {
   font-size: 40px;
   color: rgb(197, 0, 0);
@@ -177,25 +166,29 @@ a:active {
     left: 0;
     font-size: 30px;
   }
+  .container {
+    justify-content: flex-end;
+  }
 }
 @media (orientation: landscape) and (hover: none) and (pointer: coarse) {
   .container {
     min-height: 360px;
     padding-top: 6px;
+    justify-content: flex-end;
   }
   .circle {
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
   }
   .box {
-    height: 202px;
+    height: 177px;
   }
   .btn {
-    height: 22px;
+    height: 27px;
   }
   .buttons_box {
     height: 0;
-    min-height: 137px;
+    min-height: 135px;
   }
   .message-red,
   .message-green,
