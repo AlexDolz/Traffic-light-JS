@@ -170,7 +170,7 @@ a:active {
     justify-content: flex-end;
   }
 }
-@media (orientation: landscape) and (hover: none) and (pointer: coarse) {
+@media (any-pointer: coarse) and (orientation: landscape) {
   .container {
     min-height: 360px;
     padding-top: 6px;
